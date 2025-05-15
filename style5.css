@@ -1,0 +1,154 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.row-4{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+    
+}
+.cont-2 h2{
+    text-align: right;
+    
+}
+.cont-1 h1{
+    text-align: center;
+    font-size: 24px;
+}
+    
+.row-3{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+@media (min-width:320px) and (max-width:776px){
+    .row-3{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+
+header{
+    margin-top: 10px;
+    padding: 20px;
+    background-color:  white;
+    position: sticky;
+    top: 0;
+}
+.heading-1{
+    padding-top: 70px;
+}
+.pasta-img img{
+    
+    width: 100%;
+    
+}
+.card {
+    
+    margin: 10px;
+    
+}
+.cont-3 h3{
+    font-size: 24px;
+    padding-top: 10px;
+}
+.cont-3 p{
+    padding-top: 18px;
+}
+a{
+    text-decoration: none;
+    
+}
+.pagination{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 50px;
+}
+.pagination a{
+    margin: 10px;
+    font-size: 20px;
+    border: 1px solid transparent;
+    padding: 10px;
+
+}
+.pagination a:hover {
+    background-color: black;
+
+}
+.section-1{
+    text-align: center;
+    
+}
+.cont-4 h3{
+    padding-top: 40px;
+    font-size: 24px;
+
+}
+.men-img img{
+    padding-top: 30px;
+}
+.cont-4 h4{
+    padding-top: 20px;
+    font-size: 24px;
+}
+.cont-4 h6{
+    padding-top: 18px;
+    font-size: 16px;
+}
+.cont-4 p{
+    padding-top: 18px;
+}
+Footer{
+    margin-top: 80px;
+    
+}
+.foot-1 h3{
+    font-size: 28px;
+
+}
+.para-1 p{
+    padding-top: 18px;
+    font-size: 20px;
+}
+.para-2 p{
+    padding-top: 10px;
+    font-size: 18px;
+}
+.cont-5{
+    display: flex;
+    padding-bottom: 10px;
+}
+.card-img img{
+    width: 50px;
+    margin-top: 30px;
+}
+.paragraph{
+    margin-top: 10px;
+    padding-left: 20px;
+}
+.card-2{
+    background-color: white;
+    border: 1px solid black;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+.row-7{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+@media (min-width:320px) and (max-width:776px){
+    .row-7{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+
+    
